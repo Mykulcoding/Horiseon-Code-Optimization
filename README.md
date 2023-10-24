@@ -32,9 +32,7 @@ Step #9: Improve and Update Your Content
 
 Organizing a website's content by topic to improve the likelihood of appearing in search results. Essentially, it is the process you follow in order to maximize the opportunity to gain organic traffic from search engines
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
+![alt text](assets/images/01-html-css-git-challenge-demo.png)
 
 ## Credits
 
