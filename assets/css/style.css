@@ -1,16 +1,17 @@
-/* Reset default styles for all elements */
+/* Global reset for all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
 /* Body styles */
 body {
     background-color: #d9dcd6;
 }
 
 /* Header styles */
-header {
+.header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -18,18 +19,18 @@ header {
 }
 
 /* Header h1 styles */
-header h1 {
+.header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /* Header h1 .seo styles */
-header h1 .seo {
+.header h1 .seo {
     color: #d9dcd6;
 }
 
-/* Header div styles */
-header div {
+/* Header nav styles */
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -37,13 +38,13 @@ header div {
     font-size: 20px;
 }
 
-/* Header div ul styles */
-header div ul {
+/* Header nav ul styles */
+.header nav ul {
     list-style-type: none;
 }
 
-/* Header div ul li styles */
-header div ul li {
+/* Header nav ul li styles */
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -69,11 +70,13 @@ p {
     background-position: center;
 }
 
+/* Float left styles */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Float right styles */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -99,15 +102,17 @@ p {
     color: #ffffff;
 }
 
+/* Benefit styles */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Benefit img styles */
 .benefit img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 150px; /* Adjust the value based on your preference */
 }
 
 /* Section styles - SEO, ORM, SMM */
@@ -138,7 +143,7 @@ p {
 }
 
 /* Footer styles */
-footer {
+.footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -146,6 +151,6 @@ footer {
 }
 
 /* Footer h4 styles */
-footer h4 {
+.footer h4 {
     font-size: 20px;
 }
